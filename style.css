@@ -1,103 +1,112 @@
-#contact iframe {
-    width: 95%;
-    text-align: center;
-    margin-left: 2.5%;
+body{
+	background-image: url("imagepizza.jpg");
+	/* background-repeat: no-repeat; */
 }
 
-.contact_1 h3 {
-    display: inline;
-}
-
-.contact_1 a {
-    text-shadow: none;
-}
-
-.travel_mainDiv img {
-    width: 75%;
-}
-
-.travel_mainDiv hr {
-    width: 230px;
-}
-
-.travel_mainDiv h5,
-.travel_mainDiv p {
-    margin-left: 12%;
-}
-
-.movie_head {
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
     width: 100%;
-    display: inline-block;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
-.movie_head i {
-    float: right;
-}
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
 
-.movie_text span {
-    color: #ff7700;
-}
+  #add_toppings{
+	/* padding-left:30px; */
+	width:150px;
+	height:100px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+  }
 
-.environment_li {
-    margin-top: 13px;
-}
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
 
-.environment_li h4 {
-    border-bottom: 1px solid white;
-    padding: 8px;
-}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
 
-.environment_li img {
-    border-radius: 30px;
-}
-
-.environment_li p {
-    margin-top: 10px;
-}
-
-.header_entrepreneur {
-    line-height: 2;
-}
-
-.book {
-    cursor: pointer;
-}
-
-.book hr {
-    margin-bottom: 10px;
-}
-
-.modal-content {
-    margin-top: 100px;
-}
-
-.img_modal {
-    display: inline-block;
-}
-
-.p_modal {
-    margin-top: 10px;
-}
-
-.modal-body {
-    text-align: center
-}
-#schoolname iframe{
-    text-align: center;
-}
-#schoolname a{
-    text-align: center;
-}
-#achievements .collapse img{
-    width: 15%;
-}
-.p_modal a{
-    margin-left: 42%;
-}
-#schoolhead iframe{
-    width: 100%;
+#im1{
+	width:100px;
+	height: 80px;
 }
